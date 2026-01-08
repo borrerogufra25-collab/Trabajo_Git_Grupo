@@ -22,7 +22,7 @@ public class TarjetaDeVisita extends Documento {
 	//-------------------------------------------------------------------------
 	
 	public TarjetaDeVisita(String nombreT, String telefono) {
-		super();
+		super(telefono, telefono);
 		this.nombreT = nombreT;
 		telefono = telefono;
 	}
@@ -30,7 +30,7 @@ public class TarjetaDeVisita extends Documento {
 	
 	//----------------------------------------------------------------------------
 	public void Imprimir(Empresa p) {
-		super.Imprimir(p);
+		super.imprimirEncabezado();
 		System.out.println("*** El nombre del trabajador es: "+nombreT);
 		System.out.println("****. El teléfono es: "+telefono);
 	}
