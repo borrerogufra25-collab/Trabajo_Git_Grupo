@@ -1,6 +1,6 @@
 package proyecto;
 
-public class Documento {
+public class Documento{
 
 	private String nombreEmpresa;
 	private String letraRepresentativa;
